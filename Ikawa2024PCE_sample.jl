@@ -33,7 +33,7 @@ c_beta = 1.18
 c_gamma = 106.
 
 # read daily data from the TGC experiment
-fid = "C:\\Users\\Ikawa\\Googledrive\\Rproject\\TGC2020\\TGCsummary_hourly.csv"
+fid = ".\\forcing\\TGCsummary_hourly.csv"
 
 data=CSV.File(fid,header=1,skipto=2,delim=","; missingstrings=["-9999", "NA"]) |> DataFrame
 
