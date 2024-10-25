@@ -1,1 +1,1 @@
-This program calculates canopy transpiration based on Ikawa et al (2024, Plant, Cell & Environment)
+This program calculates canopy transpiration based on Ikawa et al (2024, Plant, Cell & Environment). The model accounts for the energy balance and photosynthesis effects on transpiration as simply as possible.
